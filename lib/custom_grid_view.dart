@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Author: Amjad Jamali created on 23-June-2021
+/// Author: Amjad Jamali created on 03-Aug-2021
 class CustomGridView extends StatelessWidget {
 
   /// [children] A list of widgets
@@ -157,7 +157,7 @@ class CustomGridView extends StatelessWidget {
     double verticalSpaceIn = verticalSpace/3;
 
     RoundedRectangleBorder shape = RoundedRectangleBorder(
-      borderRadius: childBorderRadius
+        borderRadius: childBorderRadius
     );
     BoxDecoration decoration = BoxDecoration(
       color: childBackgroundColor,
@@ -179,7 +179,7 @@ class CustomGridView extends StatelessWidget {
                     children: [
                       for (int j = 0; j < columnCount && (!stretchWithSides || i < children.length); i++, j++)
                         Expanded(
-                          child: Card(
+                          child: i < children.length ? Card(
                             margin: childMargin,
                             // EdgeInsets.only(
                             //   top: i < columnCount ? 0 : horizontalSpace,
@@ -200,7 +200,7 @@ class CustomGridView extends StatelessWidget {
                               // ),
                               child: i < children.length?children.elementAt(i):Text(''),
                             ),
-                          ),
+                          ):Text(''),
                         ),
                     ]),
               )
@@ -210,6 +210,7 @@ class CustomGridView extends StatelessWidget {
     );
 
   }
+
 
   Widget _getVerticalGridOK(){
 
