@@ -2,10 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A Custom GridView
-This GridView provides 2D array of children Intrinsic with and height.
+A Custom GridView provides 2D array of children Intrinsic with and height.
+
 Having two named Constructors
+
 `IntrinsicGridView.vertical` scroll direction of children is vertical.
+
 `IntrinsicGridView.horizontal` scroll direction of children is vertical.
 
 
