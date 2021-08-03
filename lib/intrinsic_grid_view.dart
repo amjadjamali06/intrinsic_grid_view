@@ -1,3 +1,5 @@
+library awesome_grid_view;
+
 import 'package:flutter/material.dart';
 
 /// Author: Amjad Jamali created on 23-June-2021
