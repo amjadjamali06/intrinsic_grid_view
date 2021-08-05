@@ -13,11 +13,6 @@ Having two named Constructors
 
 `IntrinsicGridView.horizontal` scrolls in horizontal direction.
 
-## Demo Screenshots
-IntrinsicGridView.vertical     | IntrinsicGridView.horizontal  | vertical + horizontal
-:-----------------------------:|:-----------------------------:|:-----------------------:
-<img width="280px" src="screenshots/vertical_demo.gif?raw=true">|<img width="280px" src="screenshots/horizontal_demo.gif?raw=true">|<img width="280px" src="screenshots/mix_demo.gif?raw=true">
-
 
 ### `GridView` vs `IntrinsicGridView`
 Properties                                                                        | GridView      |  IntrinsicGridView
@@ -32,9 +27,7 @@ Properties                                                                      
 
 1. Add dependency.
 
-Run this command:
-
-With Flutter:
+Run this command with Flutter:
 
 ```dart
 $ flutter pub add intrinsic_grid_view
@@ -52,37 +45,98 @@ import 'package:intrinsic_grid_view/intrinsic_grid_view.dart';
 ```
 
 3. In vertical direction:
+<img width="300px" src="screenshots/vertical_demo.gif?raw=true">
 
 ```dart
       IntrinsicGridView.vertical(
-          columnCount: 4,
-          margin: EdgeInsets.symmetric(horizontal: 20),
-          verticalSpace: 0,
-          horizontalSpace: 0,
-
+          padding: EdgeInsets.only(top: 16, bottom: 12, left: 12, right: 12),
+          // columnCount: 3,
+          verticalSpace: 10,
+          horizontalSpace: 10,
           children: [
-              for (var scientist in scientists)
-                  _buildWidget(scientist),
-          ],
+            for (var scientist in scientists)
+              _buildWidget(scientist),
+          ]
       ), // IntrinsicGridView.vertical
 ```
 
 
 4. In horizontal direction:
+<img width="300px" src="screenshots/horizontal_demo.gif?raw=true">
 
 ```dart
       IntrinsicGridView.horizontal(
-          rowCount: 4,
-          margin: EdgeInsets.symmetric(horizontal: 20),
-          verticalSpace: 0,
-          horizontalSpace: 0,
-
+          padding: EdgeInsets.only(top: 16, bottom: 12, left: 12, right: 12),
+          // rowCount: 1,
+          verticalSpace: 10,
+          horizontalSpace: 10,
           children: [
-              for (var w in widgetList)
-                  _buildWidget(v),
-          ],
+            for (var scientist in scientists)
+              _buildHorizontalWidget(scientist),
+          ]
       ), // IntrinsicGridView.horizontal
 ```
+
+
+5. Horizontal + Vertical in Same Screen
+<img width="300px" src="screenshots/mix_demo.gif?raw=true">
+
+```dart
+        Column(
+          children: [
+            Expanded(
+              flex: 3,
+              child: Row(
+                children: [
+                  Expanded(
+                    child: IntrinsicGridView.vertical(
+                        padding: EdgeInsets.only(top: 16, bottom: 12, left: 12, right: 12),
+                        columnCount: 1,
+                        verticalSpace: 10,
+                        horizontalSpace: 10,
+                        children: [
+                          for (var scientist in scientists)
+                            _buildWidget(scientist),
+                        ]
+                    ), // IntrinsicGridView.vertical
+                  ),
+
+                  Expanded(
+                    child: IntrinsicGridView.vertical(
+                        padding: EdgeInsets.only(top: 16, bottom: 12, left: 12, right: 12),
+                        // columnCount: 3,
+                        verticalSpace: 10,
+                        horizontalSpace: 10,
+                        children: [
+                          for (var scientist in scientists)
+                            _buildWidget(scientist),
+                        ]
+                    ), // IntrinsicGridView.vertical
+                  ),
+
+
+                ],
+              ),
+            ),
+
+            Expanded(
+              child: IntrinsicGridView.horizontal(
+                  padding: EdgeInsets.only(top: 16, bottom: 12, left: 12, right: 12),
+                  // rowCount: 1,
+                  verticalSpace: 10,
+                  horizontalSpace: 10,
+                  children: [
+                    for (var scientist in scientists)
+                      _buildHorizontalWidget(scientist),
+                  ]
+              ), // IntrinsicGridView.horizontal
+            ),
+          ],
+        ),
+```
+
+
+
 
 
 ## Developer Team:
