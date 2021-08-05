@@ -88,7 +88,7 @@ code
 
 `IntrinsicGridView.vertical` + `IntrinsicGridView.horizontal` example
 
-<img width="300px" src="screenshots/mix_demo.gif?raw=true">
+<img width="300px" src="https://user-images.githubusercontent.com/84534787/128336422-6f6ee3e7-3729-4ed1-9415-f8fc03a9988f.gif?raw=true">
 
 code
 ```dart
