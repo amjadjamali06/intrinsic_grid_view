@@ -1,8 +1,8 @@
 # intrinsic_grid_view
 
 [![pub package](https://img.shields.io/pub/v/intrinsic_grid_view.svg)](https://pub.dartlang.org/packages/intrinsic_grid_view)
-[![Platform](https://img.shields.io/badge/platform-flutter-blue.svg)](https://flutter.dev)
 [![Likes](https://badges.bar/intrinsic_grid_view/likes)](https://pub.dev/packages/intrinsic_grid_view/score)
+[![Platform](https://img.shields.io/badge/platform-flutter-blue.svg)](https://flutter.dev)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A Custom GridView provides 2D array of children Intrinsic with and height.
@@ -44,9 +44,11 @@ dependencies:
 import 'package:intrinsic_grid_view/intrinsic_grid_view.dart';
 ```
 
-3. In vertical direction:
-<img width="300px" src="screenshots/vertical_demo.gif?raw=true">
+3. Examples:
 
+`IntrinsicGridView.vertical` example
+<img width="300px" src="screenshots/vertical_demo.gif?raw=true">
+code
 ```dart
       IntrinsicGridView.vertical(
           padding: EdgeInsets.only(top: 16, bottom: 12, left: 12, right: 12),
@@ -61,9 +63,9 @@ import 'package:intrinsic_grid_view/intrinsic_grid_view.dart';
 ```
 
 
-4. In horizontal direction:
+`IntrinsicGridView.horizontal` example
 <img width="300px" src="screenshots/horizontal_demo.gif?raw=true">
-
+code
 ```dart
       IntrinsicGridView.horizontal(
           padding: EdgeInsets.only(top: 16, bottom: 12, left: 12, right: 12),
@@ -78,9 +80,9 @@ import 'package:intrinsic_grid_view/intrinsic_grid_view.dart';
 ```
 
 
-5. Horizontal + Vertical in Same Screen
+`IntrinsicGridView.horizontal` + `IntrinsicGridView.horizontal` example
 <img width="300px" src="screenshots/mix_demo.gif?raw=true">
-
+code
 ```dart
         Column(
           children: [
