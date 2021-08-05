@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/badge/platform-flutter-blue.svg)](https://flutter.dev)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A Custom GridView provides 2D array of children Intrinsic with and height.
+A Custom GridView, IntrinsicGridView provides 2D array of children with Intrinsic width and height.
 
 Having two named Constructors
 
