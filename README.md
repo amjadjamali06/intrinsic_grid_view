@@ -38,7 +38,7 @@ $ flutter pub add intrinsic_grid_view
 or add following package in your `pubspec.yaml` file inside the `dependencies:` section.
 ```dart
 dependencies:
-  intrinsic_grid_view: ^0.0.1
+  intrinsic_grid_view: ^0.0.2
 ```
 2. Importing the library:
 
