@@ -16,7 +16,7 @@ Having two named Constructors
 ## Demo Screenshots
 IntrinsicGridView.vertical     | IntrinsicGridView.horizontal  | vertical + horizontal
 :-----------------------------:|:-----------------------------:|:-----------------------:
-<img width="300px" src="screenshots/horizontal_demo.gif?raw=true">|<img width="300px" src="screenshots/vertical_demo.gif?raw=true">|<img width="300px" src="screenshots/mix_demo.gif?raw=true">
+<img width="280px" src="screenshots/horizontal_demo.gif?raw=true">|<img width="280px" src="screenshots/vertical_demo.gif?raw=true">|<img width="280px" src="screenshots/mix_demo.gif?raw=true">
 
 
 ### `GridView` vs `IntrinsicGridView`
