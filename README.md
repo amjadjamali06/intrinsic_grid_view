@@ -70,6 +70,7 @@ code
 `IntrinsicGridView.horizontal` example
 
 <img width="300px" src="https://user-images.githubusercontent.com/84534787/128336722-8c9998f4-e8e2-4c6a-ad0a-e7cb7351584f.gif?raw=true">
+
 code
 ```dart
       IntrinsicGridView.horizontal(
