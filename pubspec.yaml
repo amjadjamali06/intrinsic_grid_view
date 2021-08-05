@@ -1,6 +1,6 @@
 name: intrinsic_grid_view
-description: A Dart plugin for Custom GridView
-version: 0.0.1
+description: IntrinsicGridView is a custom GridView, It provides 2D array of children with Intrinsic width and height. Having two named Constructors. horizontal and vertical
+version: 0.0.2
 homepage: https://github.com/amjadjamali06/intrinsic_grid_view
 
 environment:
