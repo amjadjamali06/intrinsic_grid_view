@@ -1,4 +1,4 @@
-library awesome_grid_view;
+library intrinsic_grid_view;
 
 import 'package:flutter/material.dart';
 
@@ -97,9 +97,9 @@ class IntrinsicGridView extends StatelessWidget {
   Widget _getVerticalGrid() {
     return Container(
       margin: _margin,
-      padding: _padding,
       color: _backgroundColor,
       child: SingleChildScrollView(
+        padding: _padding,
         child: Column(
           children: [
             for (int i = 0; i < _children.length;)
@@ -126,9 +126,10 @@ class IntrinsicGridView extends StatelessWidget {
 
   Widget _getHorizontalGrid() {
     return Container(
+      color: _backgroundColor,
       margin: _margin,
-      padding: _padding,
       child: SingleChildScrollView(
+        padding: _padding,
         scrollDirection: Axis.horizontal,
         child: Row(
           children: [

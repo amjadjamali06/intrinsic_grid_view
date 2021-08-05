@@ -1,11 +1,11 @@
-name: awesome_grid_view
-description: A Custom GridView
+name: intrinsic_grid_view
+description: A Dart plugin for Custom GridView
 version: 0.0.1
 author: Amjad Jamali <amjadjamali06@gmail.com>
-homepage: https://github.com/amjadjamali06/awesome_grid_view.git
+homepage: https://github.com/amjadjamali06/intrinsic_grid_view.git
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
