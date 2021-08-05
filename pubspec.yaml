@@ -1,7 +1,6 @@
 name: intrinsic_grid_view
 description: A Dart plugin for Custom GridView
 version: 0.0.1
-author: Amjad Jamali <amjadjamali06@gmail.com>
 homepage: https://github.com/amjadjamali06/intrinsic_grid_view
 
 environment:
