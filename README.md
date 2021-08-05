@@ -84,7 +84,7 @@ code
 ```
 
 
-`IntrinsicGridView.horizontal` + `IntrinsicGridView.horizontal` example
+`IntrinsicGridView.vertical` + `IntrinsicGridView.horizontal` example
 
 <img width="300px" src="screenshots/mix_demo.gif?raw=true">
 
