@@ -47,7 +47,9 @@ import 'package:intrinsic_grid_view/intrinsic_grid_view.dart';
 3. Examples:
 
 `IntrinsicGridView.vertical` example
+
 <img width="300px" src="screenshots/vertical_demo.gif?raw=true">
+
 code
 ```dart
       IntrinsicGridView.vertical(
@@ -64,7 +66,9 @@ code
 
 
 `IntrinsicGridView.horizontal` example
+
 <img width="300px" src="screenshots/horizontal_demo.gif?raw=true">
+
 code
 ```dart
       IntrinsicGridView.horizontal(
@@ -81,7 +85,9 @@ code
 
 
 `IntrinsicGridView.horizontal` + `IntrinsicGridView.horizontal` example
+
 <img width="300px" src="screenshots/mix_demo.gif?raw=true">
+
 code
 ```dart
         Column(
