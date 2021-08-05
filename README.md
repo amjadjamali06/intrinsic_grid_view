@@ -18,7 +18,7 @@ Having two named Constructors
 
 ### `GridView` vs `IntrinsicGridView`
 Properties                                                                        | GridView      |  IntrinsicGridView
-:--------------------------------------------------------------------------------:|:-------------:|:--------------------:
+----------------------------------------------------------------------------------|---------------|---------------------
  contents `overflow`                                                              | Yes           | No
  `children` width vary  with item width                                           | No            | Yes
  `children` height vary  with item height                                         | No            | Yes
@@ -50,7 +50,7 @@ import 'package:intrinsic_grid_view/intrinsic_grid_view.dart';
 
 `IntrinsicGridView.vertical` example
 
-<img width="300px" src="screenshots/vertical_demo.gif?raw=true">
+<img width="300px" src="https://user-images.githubusercontent.com/84534787/128336736-4869c161-9dc3-45ba-89b1-0a88494af8cf.gif?raw=true">
 
 code
 ```dart
@@ -69,8 +69,7 @@ code
 
 `IntrinsicGridView.horizontal` example
 
-<img width="300px" src="screenshots/horizontal_demo.gif?raw=true">
-
+<img width="300px" src="https://user-images.githubusercontent.com/84534787/128336722-8c9998f4-e8e2-4c6a-ad0a-e7cb7351584f.gif?raw=true">
 code
 ```dart
       IntrinsicGridView.horizontal(
