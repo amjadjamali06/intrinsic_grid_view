@@ -6,6 +6,8 @@
 [![pub points](https://badges.bar/intrinsic_grid_view/pub%20points)](https://pub.dev/packages/intrinsic_grid_view/score)
 [![Platform](https://img.shields.io/badge/platform-flutter-blue.svg)](https://flutter.dev)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/amjadjamali06/intrinsic_grid_view.svg)](https://github.com/amjadjamali06/intrinsic_grid_view)
+[![GitHub stars](https://img.shields.io/github/stars/amjadjamali06/intrinsic_grid_view.svg?style=social)](https://github.com/amjadjamali06/intrinsic_grid_view)
 
 A Custom GridView, IntrinsicGridView provides 2D array of children with Intrinsic width and height.
 
